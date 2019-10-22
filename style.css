@@ -1,0 +1,110 @@
+
+body{
+	background-color: rgb(230, 230, 230);
+	color: rgb(40, 40, 40);
+	font-family: 'Vidaloka', serif;
+	font-size: 16px;
+}
+
+h1, h2{
+	font-family: 'Indie Flower', cursive;
+}
+
+h1{
+	color: #C4A69D;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 15px
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: #C4A69D;
+}
+
+a:hover {
+	color: #A5C4D4;
+}
+
+
+.container{
+	margin: 40px auto;
+	width: 900px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.element-design{
+	background: white;
+	padding: 60px;
+	margin: 50px;
+	border-radius: 4px;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+
+
+.imge{
+	border-radius: 50%;
+}
+
+.shadowed{
+box-shadow: 5px 5px 3px grey;
+}
+
+.text-justify {
+	text-align: center;
+}
+
+.btn-pink {
+	background-color: #C4A69D;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover{
+	background-color: grey;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
